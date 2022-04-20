@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.notes-block {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.notes-block_title {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.notes-block_notes-list {
+  display: flex;
+  width: 95%;
+  margin: 15px auto;
+  height: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.reload {
+  display: inline-block;
+  background-image: url('./img/reload.png');
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.delete {
+  display: block;
+  background-image: url('./img/cancel.png');
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  margin-left: 5px;
+  float: right;
+  clear: both;
+  cursor: pointer;
+}
+
+.note-block {
+  display: inline-block;
+  width: 250px;
+  min-height: 250px;
+  height: auto;
+  border: 1px solid red;
+  padding: 5px;
+  margin: 10px;
+}
+
+.note-block_content {
+  display: inline-block;
+  max-width: 100%;
+  min-height: 100%;
+}
+
+.notes-block_form-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.form-block_input {
+  width: 600px;
+  height: 90px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.form-block_button {
+  margin: 0;
+  width: 200px;
+  height: 90px;
+  background-color: #fff;
+  border: 1px solid red;
+  font-size: 25px;
+  cursor: pointer;
+}
