@@ -1,5 +1,5 @@
 import React from 'react';
-import './Form.css'
+import './AddBlock.css'
 
 const AddBlock = ({ onAdd }) => {
     const [field, setField] = React.useState({city: '', deviantion: ''});
